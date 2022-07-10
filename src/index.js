@@ -1,3 +1,3 @@
-function sayHello(name) {
-    return <h1>Hello, {name}</h1>
+function sum(a, b) {
+    return <h2>  {a + b}  </h2>
 }
