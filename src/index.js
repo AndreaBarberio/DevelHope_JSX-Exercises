@@ -1,1 +1,3 @@
-let hello = <h1>Hello, World!</h1>
+function sum(a, b) {
+    return <h2>  {a + b}  </h2>
+}
