@@ -3,6 +3,9 @@ import React from "react";
 
 export class Welcome extends React.Component {
     render () {
-        return <h2>Welcome, {this.props.name} {this.props.surname}</h2>
+        return <div>
+        <h2>Welcome, {this.props.name}</h2>
+        <p>Your Age is {this.props.age}</p>
+</div>
     }
 }
