@@ -8,5 +8,9 @@ export class App extends React.Component {
             <Hello />
             <Welcome name= "Andrea" />
         </div>
+        /* 
+        se viene passata una stringa vuota viene renderizzata tale stringa vuota
+        se non viene passato alcun valore avviene un errore per cui props.name è deprecato 
+        */
     }
 }
